@@ -1,0 +1,80 @@
+.food-display {
+  margin-top: 30px;
+}
+
+.food-display h2 {
+  font-size: max(2vw, 24px);
+  font-weight: 600;
+}
+
+.food-display-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin-top: 30px;
+  gap: 30px;
+  row-gap: 50px;
+}
+
+/* Filter container */
+.filters {
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* Rating and Price box */
+.filters > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Title: Rating / Price */
+.filters > div p {
+  margin: 0;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Buttons */
+.filters button {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  background: white;
+  color: #555;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  outline:none;
+}
+
+/* Hover */
+.filters button:hover {
+  border-color: tomato;
+  color: tomato;
+}
+
+/* Active selected button */
+.filters button.active {
+  background: tomato;
+  color: white;
+  border-color: tomato;
+  box-shadow: 0 3px 8px rgba(255,99,71,0.3);
+}
+
+/* Mobile */
+@media(max-width:768px){
+  .filters {
+    justify-content: center;
+  }
+
+  .filters > div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
