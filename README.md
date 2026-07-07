@@ -109,7 +109,7 @@ src
 └── index.css
 
 ## 1. Clone the repository
-git clone https://github.com/DPsankari27/Food-Ordering-App.git
+git clone https://github.com/sankari-d27/Food-Ordering-App.git
 
 # 🖥️ Application Flow
 Home Page
