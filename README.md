@@ -76,38 +76,6 @@ The application focuses on a smooth user experience with reusable React componen
   - useEffect
   - useContext
 
-# 📂 Project Structure
-src
-│
-├── assets
-│   ├── images
-│   ├── icons
-│   └── food data
-│
-├── components
-│   │
-│   ├── Navbar
-│   ├── Header
-│   ├── Footer
-│   ├── Login
-│   ├── ExploreMenu
-│   ├── FoodDisplay
-│   ├── FoodItem
-│   └── AppDownload
-│
-├── context
-│   └── StoreContext.jsx
-│
-├── pages
-│   │
-│   ├── Home
-│   ├── Cart
-│   └── PlaceOrder
-│
-├── App.jsx
-├── main.jsx
-└── index.css
-
 ## 1. Clone the repository
 git clone https://github.com/sankari-d27/Food-Ordering-App.git
 
