@@ -79,6 +79,8 @@ The application focuses on a smooth user experience with reusable React componen
 ## 1. Clone the repository
 git clone https://github.com/sankari-d27/Food-Ordering-App.git
 
+Live: https://sankari-d27.github.io/Food-Ordering-App/
+
 # 🖥️ Application Flow
 Home Page
     |
